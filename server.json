@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.agentdeals/agentdeals",
+  "title": "AgentDeals",
+  "description": "One-stop US price search: compare Amazon, Walmart, Target, Best Buy & 160+ stores in one call",
+  "version": "0.3.1",
+  "websiteUrl": "https://agentdeals.app/agents",
+  "repository": { "url": "https://github.com/misbahsy/agentdeals", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://agentdeals.app/mcp" }]
+}
